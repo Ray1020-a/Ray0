@@ -15,7 +15,7 @@ const WORK_EXPERIENCE = [
   {
     title: 'Administrative staff as Network Management',
     org: 'MineCloud Studio',
-    period: '2026 - Present',
+    period: '2022 - Present',
   },
 ]
 
