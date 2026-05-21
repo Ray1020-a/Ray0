@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import { AnimatePresence, LayoutGroup } from 'framer-motion'
 import Nav from './components/Nav'
 import IntroAnimation from './components/IntroAnimation'
@@ -19,7 +19,7 @@ export default function App() {
   }
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <LayoutGroup>
         <AnimatePresence>
           {introVisible && (
@@ -36,6 +36,6 @@ export default function App() {
           <Route path="/blog/:slug" element={<BlogPost />} />
         </Routes>
       </LayoutGroup>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
