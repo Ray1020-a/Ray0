@@ -20,7 +20,6 @@ npm-debug.log*
 *.ntvs*
 *.njsproj
 *.sln
-.github/
 .claude/
 
 # OS
