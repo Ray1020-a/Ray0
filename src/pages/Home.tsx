@@ -21,6 +21,11 @@ const WORK_EXPERIENCE = [
 
 const Activities_Course = [
   {
+    title: 'COSCUP 2026',
+    identity: 'Streaming Team — Staff Member',
+    time: '2026',
+  },
+  {
     title: 'SITCON 2026',
     identity: 'Administration Team — Staff Member',
     time: '2026',
@@ -28,6 +33,11 @@ const Activities_Course = [
   {
     title: 'COSCUP 2025',
     identity: 'Streaming Team — Staff Member',
+    time: '2025',
+  },
+  {
+    title: 'COMPUTEX 2025',
+    identity: 'Attendee',
     time: '2025',
   },
   {
